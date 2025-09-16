@@ -52,8 +52,9 @@ UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 # UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
-# UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "main" "pkg"
+# UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "master" "pkg"
 # git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
+# git clone --depth=1 https://github.com/vernesong/OpenClash package/luci-app-openclash
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 
