@@ -59,7 +59,7 @@ UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
-# UPDATE_PACKAGE "luci-app-zerotier" "QiDream-hub/luci-app-zerotier" "main" 不知道不加这个能不能使用
+# UPDATE_PACKAGE "luci-app-zerotier" "QiDream-hub/luci-app-zerotier" "main" 不加这个也能编译 等我刷了后试试。
 
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master"
